@@ -1,21 +1,13 @@
-# Some Haskell slides
+# haskell-intro
 
-## How to view
+An archive of two Haskell slide decks written by **Erik Dominikus** in 2015:
 
-Open in your browser:
+- `haskell-intro` - "Haskell introduction", the fundamental-concepts deck.
+- `haskell-preintro` - "Discover Haskell 98 in 3 hours through progressive exercises", a large exercise-driven deck for people new to Haskell.
 
-http://edom.github.io/haskell-intro/haskell-intro.html
+The decks are remark.js slides: open `haskell-intro.html` or `haskell-preintro.html` over any static file server (for example `python3 -m http.server 8000`) and step through with the arrow keys.
 
-You can replace haskell-intro.html with other file paths in this repository.
+## Why this copy exists
 
-## How to run
+These slides are Erik Dominikus's work, kept here with his authorship intact in the git history. His original repository (`edom/haskell-intro`) is no longer available on GitHub, so this copy is preserved as the surviving record. Nothing in this repository was written by the account owner.
 
-I assume you are using Ubuntu 12.04.
-
-Run this (assuming that TCP port 8000 on your localhost is unused):
-
-```
-python -m SimpleHTTPServer 8000
-```
-
-Then, open [http://localhost:8000/haskell-intro.html](http://localhost:8000/haskell-intro.html).
